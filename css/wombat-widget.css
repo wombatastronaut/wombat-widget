@@ -1,0 +1,171 @@
+.wombat-widget .panel-title {
+    display: inline-block;
+}
+.wombat-widget .panel-heading {
+    padding-right: 0;
+}
+.wombat-widget-placeholder {
+   background-color: #f9f5d1;
+    border: 1px dashed #919191;
+    margin-bottom: 15px
+}
+.wombat-widget.first {
+    margin-right: 2.5%;
+}
+.wombat-widget.last {
+    margin-left: 2.5%;
+}
+.widget-actions-container {
+    display: inline-block;
+    float: right;
+    position: relative;
+}
+.widget-actions {
+    list-style: none;
+}
+.widget-actions li a {
+    color: #000000;
+}
+.widget-actions>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+.widget-actions li {
+    display: inline-block !important;
+}
+.widget-settings {
+    display: none;
+}
+.widget-content-tpl {
+    display: none;
+}
+.widget-unpin {
+    position: absolute;
+}
+.wombat-widget-tooltip {
+    z-index: 99999 !important;
+}
+.wombat-widget .panel-heading {
+    height: 41px;
+    padding: 5px;
+    position: relative;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.wombat-widget .panel-heading .panel-title {
+    font-size: 16px;
+    line-height: normal;
+    padding-left: 5px;
+}
+.wombat-widget .panel-heading .dropdown {
+    display: inline-block;
+    float: right;
+    line-height: normal;
+    position: relative;
+}
+.wombat-widget .panel-heading .dropdown .dropdown-toggle:hover, .wombat-widget>.panel-heading .dropdown .dropdown-toggle:hover:focus, .wombat-widget>.panel-heading .dropdown.open .dropdown-toggle {
+    text-shadow: 2px 2px 5px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,.15);
+}
+.wombat-widget .panel-heading .dropdown .dropdown-menu {
+    left: auto;
+    right: 0;
+    min-width: initial;
+    margin-top: 0;
+    border-radius: 0;
+}
+.wombat-widget .panel-heading .dropdown .dropdown-menu>li>a .control-title {
+    display: inline-block;
+    margin-left: 15px;
+}
+.wombat-widget .panel-heading .dropdown .dropdown-toggle {
+    border: none;
+    outline: 0;
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+    width: 30px;
+    font-size: 14px;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+.wombat-widget .panel-body {
+    overflow: auto;
+    position: relative;
+}
+.wombat-widget .panel-heading .dropdown .dropdown-toggle .panel-control-icon {
+    top: 0;
+    line-height: 30px;
+}
+.grid-stack>.grid-stack-item {
+    margin-bottom: 20px;
+}
+/*.widget-settings.active {
+    display: block;
+}
+*/
+@media screen and (min-width: 768px) {
+    .wombat-widget .panel-heading .widget-actions>li>a {
+        cursor: pointer;
+        color: inherit;
+        padding: 0;
+        outline: 0;
+        text-align: center;
+       /* line-height: 30px;
+       */
+        width: 30px;
+       /* height: 30px;
+       */
+        -webkit-transition: text-shadow .2s;
+        -o-transition: text-shadow .2s;
+        transition: text-shadow .2s;
+   }
+    .wombat-widget .panel-heading .widget-actions>li>a :hover {
+        text-shadow: 2px 2px 5px rgba(0,0,0,.6);
+        background-color: rgba(0,0,0,.15);
+   }
+    .wombat-widget .panel-heading .widget-actions>li>a .control-title {
+        display: none;
+   }
+    .wombat-widget .panel-heading .dropdown .dropdown-menu {
+        position: static;
+        display: inline-block;
+        border: none;
+        padding: 0;
+        margin: 0;
+        min-width: initial;
+        width: auto;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        background: 0 0;
+   }
+    .wombat-widget .panel-heading .dropdown .dropdown-menu>li {
+        display: inline-block;
+   }
+    .wombat-widget .panel-heading .dropdown .dropdown-menu>li>a {
+        cursor: pointer;
+        color: inherit;
+        padding: 0;
+        outline: 0;
+        text-align: center;
+        width: 23px;
+        font-size: 14px;
+        -webkit-transition: all .2s;
+        -o-transition: all .2s;
+        transition: all .2s;
+   }
+    .wombat-widget .panel-heading .dropdown .dropdown-menu>li>a .control-title, .wombat-widget .panel-heading .dropdown .dropdown-toggle {
+        display: none;
+   }
+}
+@media screen and (max-width: 768px) {
+    .wombat-widget .panel-heading .dropdown .dropdown-toggle , .wombat-widget .panel-heading .dropdown .dropdown-toggle .panel-control-icon {
+        line-height: normal;
+   }
+}
