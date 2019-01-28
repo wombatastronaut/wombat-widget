@@ -1,2 +1,2 @@
 # wombat-widget
-An awesome widge.
+An awesome jQuey widget.
